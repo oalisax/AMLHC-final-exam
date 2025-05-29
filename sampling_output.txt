@@ -1,0 +1,33 @@
+Starting dataset sampling...
+Source: /home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray
+Target: /home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray_sampled
+Sampling fraction: 10.0%
+
+Processing split: train
+  Processing class: NORMAL
+Found 1349 images. Sampling 134 images.
+Copied 134 files to '/home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray_sampled/train/NORMAL'
+
+  Processing class: PNEUMONIA
+Found 3883 images. Sampling 388 images.
+Copied 388 files to '/home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray_sampled/train/PNEUMONIA'
+
+Processing split: test
+  Processing class: NORMAL
+Found 234 images. Sampling 23 images.
+Copied 23 files to '/home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray_sampled/test/NORMAL'
+
+  Processing class: PNEUMONIA
+Found 390 images. Sampling 39 images.
+Copied 39 files to '/home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray_sampled/test/PNEUMONIA'
+
+Dataset sampling complete!
+
+--- Summary of Sampled Dataset at '/home/andre/Documents/code/AMLHC-final-exam/ChestXRay2017/chest_xray_sampled' ---
+Split: train
+  Class: NORMAL - Files: 134
+  Class: PNEUMONIA - Files: 388
+Split: test
+  Class: NORMAL - Files: 23
+  Class: PNEUMONIA - Files: 39
+--------------------------------------------------
